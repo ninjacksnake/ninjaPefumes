@@ -2,14 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import RegisterForm from "../components/RegisterForm";
 
-const handleRegister = async () => {};
+
 const Register = () => {
-  const apiUsersUrl = "http://localhost:3200/api/v1/users";
   return (
     <RegisterContainer>
       <div className="flexContainer">
         <div className="boxDiv">
-          <RegisterForm handleRegister={handleRegister} />
+          <RegisterForm />
         </div>
       </div>
     </RegisterContainer>
